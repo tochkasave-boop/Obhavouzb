@@ -13,7 +13,7 @@ logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
 def get_weather(city):
-    url = f"https://api.weatherapi.com/v1/current.json?key={WEATHER_API_KEY}&q={city}&lang=ru"
+    url = f"https://api.weatherapi.com/v1/current.json?key={b0ca82f6eea240f78bb191657260105}&q={city}&lang=ru"
     try:
         with urllib.request.urlopen(url, timeout=10) as response:
             return json.loads(response.read().decode())
