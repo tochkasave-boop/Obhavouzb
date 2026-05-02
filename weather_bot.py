@@ -38,7 +38,7 @@ def format_weather(data):
     except:
         return "❌ Ошибка при обработке данных"
 
-bot = Bot(token=BOT_TOKEN)
+bot = Bot(token=8792418869:AAG0fDwDh0UkSz_ceEFP4KDr1o-hKsvOAco)
 dp = Dispatcher()
 
 @dp.message(Command("start"))
